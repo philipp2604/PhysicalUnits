@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalUnits.Lib", "PhysicalUnits.Lib\PhysicalUnits.Lib.csproj", "{461896F3-8ADF-4D5A-ACA3-6E005243DE65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalUnits.Test", "PhysicalUnits.Test\PhysicalUnits.Test.csproj", "{82F9EB8C-297A-4FF8-8720-DCC8537CBDE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{461896F3-8ADF-4D5A-ACA3-6E005243DE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461896F3-8ADF-4D5A-ACA3-6E005243DE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461896F3-8ADF-4D5A-ACA3-6E005243DE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461896F3-8ADF-4D5A-ACA3-6E005243DE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F9EB8C-297A-4FF8-8720-DCC8537CBDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F9EB8C-297A-4FF8-8720-DCC8537CBDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F9EB8C-297A-4FF8-8720-DCC8537CBDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F9EB8C-297A-4FF8-8720-DCC8537CBDE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A446535-6FE1-4F5C-B951-FCEC5D675ED3}
+	EndGlobalSection
+EndGlobal
