@@ -14,7 +14,7 @@ public class Mass_Class_UnitTests
     }
 
     [Fact]
-    public void GetValueInUnit_ReturnsCorrectValueInPounds()
+    public void GetValueInUnit_ReturnsCorrectValueFromGramsInPounds()
     {
         var mass = new Mass(453.592m, Mass.Units.Gram);
         var result = mass.GetValueInUnit(Mass.Units.Pound);
@@ -23,12 +23,21 @@ public class Mass_Class_UnitTests
     }
 
     [Fact]
+    public void GetValueInUnit_ReturnsCorrectValueFromPoundsInGrams()
+    {
+        var mass = new Mass(1, Mass.Units.Pound);
+        var result = mass.GetValueInUnit(Mass.Units.Gram);
+
+        Assert.Equal(453.592m, result);
+    }
+
+    [Fact]
     public void SetValueInUnit_SetsValueCorrectly()
     {
         var mass = new Mass(100, Mass.Units.Gram);
         mass.SetValueInUnit(1, Mass.Units.Pound);
 
-        Assert.Equal(453.592m, mass.GetValueInUnit(Mass.Units.Gram));
+        Assert.Equal(1, mass.GetValue());
     }
 
     [Fact]
