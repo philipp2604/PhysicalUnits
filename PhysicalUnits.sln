@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalUnits.Lib", "PhysicalUnits.Lib\PhysicalUnits.Lib.csproj", "{461896F3-8ADF-4D5A-ACA3-6E005243DE65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalUnits.Lib", "src\PhysicalUnits.Lib\PhysicalUnits.Lib.csproj", "{461896F3-8ADF-4D5A-ACA3-6E005243DE65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalUnits.Test", "PhysicalUnits.Test\PhysicalUnits.Test.csproj", "{82F9EB8C-297A-4FF8-8720-DCC8537CBDE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicalUnits.Test", "src\PhysicalUnits.Test\PhysicalUnits.Test.csproj", "{82F9EB8C-297A-4FF8-8720-DCC8537CBDE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
