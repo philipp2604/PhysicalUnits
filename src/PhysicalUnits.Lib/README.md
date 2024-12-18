@@ -1,4 +1,4 @@
-# PhysicalUnits
+﻿# PhysicalUnits
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![build and test](https://github.com/philipp2604/PhysicalUnits/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/philipp2604/PhysicalUnits/actions/workflows/build-and-test.yml) ![GitHub Release](https://img.shields.io/github/v/release/philipp2604/PhysicalUnits) [![NuGet Version](https://img.shields.io/nuget/v/philipp2604.PhysicalUnits)](https://www.nuget.org/packages/philipp2604.PhysicalUnits/)
 
 
@@ -43,7 +43,7 @@ Currently, only the base SI units are implemented:
 
 
 ## Third Party Software / Packages
-Please have a look at [THIRD-PARTY-LICENSES](./THIRD-PARTY-LICENSES.md) for all the awesome packages used in this library.
+Please have a look at [THIRD-PARTY-LICENSES](https://github.com/philipp2604/PhysicalUnits/blob/master/THIRD-PARTY-LICENSES.md) for all the awesome packages used in this library.
 
 ## License
-This library is [MIT licensed](./LICENSE.txt).
+This library is [MIT licensed](https://github.com/philipp2604/PhysicalUnits/blob/master/LICENSE.txt).
