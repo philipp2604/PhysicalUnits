@@ -1,10 +1,12 @@
 ﻿namespace PhysicalUnits.Lib.SI.Base;
 
-public class AmountOfSubstance(decimal value, PhysicalQuantity.Prefix prefix = PhysicalQuantity.Prefix.None) : PhysicalQuantity(value, Units.Mole, prefix)
+using System;
+
+public class LuminousIntensity(decimal value, PhysicalQuantity.Prefix prefix = PhysicalQuantity.Prefix.None) : PhysicalQuantity(value, Units.Candela, prefix)
 {
     public enum Units
     {
-        Mole
+        Candela
     }
 
     public override decimal GetValue(Prefix? targetPrefix = Prefix.None)
@@ -30,7 +32,7 @@ public class AmountOfSubstance(decimal value, PhysicalQuantity.Prefix prefix = P
 
         return Unit switch
         {
-            Units.Mole => prefixAbbreviation + "mol",
+            Units.Candela => prefixAbbreviation + "cd",
             _ => throw new ArgumentOutOfRangeException(nameof(Unit), Unit, null)
         };
     }
