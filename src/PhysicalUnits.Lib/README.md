@@ -23,7 +23,7 @@ using static PhysicalUnits.Lib.PhysicalQuantity;
 var massInKg = new Mass(10, Mass.Units.Gram, Prefix.Kilo);
 
 var massInmg = mass.GetValue(Prefix.Milli);
-var result = mass.GetValueInUnit(Mass.Units.Pound);
+var massInPounds = mass.GetValueInUnit(Mass.Units.Pound);
 ```
 
 
